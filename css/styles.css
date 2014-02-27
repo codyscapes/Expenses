@@ -1,0 +1,83 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: 'Exo 2', sans-serif;
+
+}
+
+.container {
+  width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+}
+
+h1 {
+  text-align:center;
+  font-weight: 700;
+  margin:15px 0;
+}
+
+h2 {
+  margin:0;
+  padding:0;
+}
+
+h3 {
+  float: left;
+}
+
+h4 {
+  clear: both;
+}
+
+.clear {
+  clear: both;
+}
+
+#newListContainer, #newTaskContainer {
+  display:none;
+  margin: 20px 0;
+}
+
+#listSelect {
+  margin:10px 0 20px 0;
+  width: 100%;
+}
+
+.newItem {
+  clear: both;
+}
+
+.itemNameInput {
+  float:left;
+  width:150px;
+  margin: 5px 5px 5px 0;
+}
+
+.itemCostInput {
+  float:left;
+  width:50px;
+  margin: 5px 0;
+}
+
+#addMoreItems {
+  clear:both;
+  cursor:pointer;
+  background-color: black;
+  color:white;
+  width: 150px;
+  margin:10px auto;
+  padding:5px 10px;
+  text-align: center;
+}
+
+.btn {
+  clear:both;
+  margin:20px 0 0 0;
+}
